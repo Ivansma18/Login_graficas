@@ -1,0 +1,30 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.login-form{
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+}
+
+.login-form img{
+    width: 10rem;
+    height: 10rem;
+}
+
+.login-logo{
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-input{
+    width: 30rem;
+    height: 3rem;
+}
