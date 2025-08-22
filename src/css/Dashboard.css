@@ -1,0 +1,32 @@
+.Contenedor {
+  max-width: 120rem;
+}
+
+.contenedor-graficas {
+  max-width: 95%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 0 auto;
+  padding: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.grafica {
+  width: 100%;           /* ocupa todo el ancho disponible */
+  max-width: 50rem;      /* pero no más de 50rem */
+  height: 40rem;          /* la altura se ajusta automáticamente */
+  aspect-ratio: 5 / 4;   /* mantiene proporción (ancho/alto) */
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  .contenedor-graficas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+}
+
