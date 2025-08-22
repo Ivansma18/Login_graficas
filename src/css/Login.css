@@ -1,30 +1,74 @@
-.login-container{
+.contededor {
+  margin-bottom: 8rem;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  flex-direction: column;
+}
+
+.login-form {
+  display: flex;
+  gap: 2rem;
+}
+
+.login-form img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.div-inputs {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login.icon {
+  display: flex;
+  justify-content: center;
+}
+
+.login-input {
+  width: 18rem;
+  height: 3rem;
+}
+
+.login-info {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.login-icon {
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+}
+
+@media (max-width: 600px) {
+  .login-form {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 2rem;
-}
-
-.login-form{
+  }
+  .div-inputs {
     display: flex;
-    width: 100%;
-    gap: 2rem;
-}
-
-.login-form img{
-    width: 10rem;
-    height: 10rem;
-}
-
-.login-logo{
-    width: 20rem;
-    height: 20rem;
+    flex-direction: column;
+  }
+  .login-info{
     display: flex;
-    align-items: center;
     justify-content: center;
-}
-
-.login-input{
-    width: 30rem;
-    height: 3rem;
+  }
 }
