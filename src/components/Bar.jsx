@@ -32,7 +32,7 @@ export const Bar = () => {
         },
       ],
     };
-
+    window.addEventListener("resize", () => myChart.resize());
     myChart.setOption(option);
 
     return () => {

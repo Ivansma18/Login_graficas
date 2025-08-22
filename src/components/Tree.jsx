@@ -245,7 +245,7 @@ export const Tree = () => {
         },
       ],
     });
-
+    window.addEventListener("resize", () => myChart.resize());
     myChart.setOption(data);
 
     return () => {

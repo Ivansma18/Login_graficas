@@ -33,7 +33,7 @@ export const Line = () => {
         },
       ],
     };
-
+    window.addEventListener("resize", () => myChart.resize());
     option && myChart.setOption(option);
 
     return () => {

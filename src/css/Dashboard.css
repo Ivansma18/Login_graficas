@@ -17,12 +17,12 @@
   width: 100%;           /* ocupa todo el ancho disponible */
   max-width: 50rem;      /* pero no más de 50rem */
   height: 40rem;          /* la altura se ajusta automáticamente */
-  aspect-ratio: 5 / 4;   /* mantiene proporción (ancho/alto) */
+  aspect-ratio: 16 / 9;   /* mantiene proporción (ancho/alto) */
   border-radius: 1rem;
   overflow: hidden;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 760px) {
   .contenedor-graficas {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
