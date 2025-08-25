@@ -214,6 +214,9 @@ export const Tree = () => {
           expandAndCollapse: true,
           animationDuration: 550,
           animationDurationUpdate: 750,
+          lineStyle: {
+            curveness: 0.5,
+          },
         },
         {
           type: "tree",
@@ -242,6 +245,9 @@ export const Tree = () => {
           },
           animationDuration: 550,
           animationDurationUpdate: 750,
+          lineStyle: {
+            curveness: 0.5,
+          },
         },
       ],
     });

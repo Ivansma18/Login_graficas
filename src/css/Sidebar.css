@@ -1,0 +1,30 @@
+.sidebar {
+  width: 8rem;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  z-index: 1000;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.sidebar-nav__icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+}
+
+.nav-icon {
+  width: 2.5rem;
+  height: 2.5rem;
+}
